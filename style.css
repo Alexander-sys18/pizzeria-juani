@@ -13,6 +13,7 @@ header{
     align-items: center;
     width: 100%;
     padding: 13px;
+    padding-right: 0 !important;
 }
 .container-sup-navbar div{
     width: 33.3%;
@@ -25,6 +26,7 @@ header{
 }
 .container-sup-icon{
     display: flex;
+    justify-content: center;
 }
 .nav{
     height: 7vh;
@@ -34,7 +36,9 @@ header{
 }
 .container-logo-nav{
     width: 20%;
-    justify-content: start !important;
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
 }
 .logo-nav{
     height: 100%;
@@ -43,6 +47,9 @@ nav div{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+nav{
+    padding-right: 0 !important;
 }
 .menu-nav{
     display: flex;
@@ -69,8 +76,13 @@ nav div{
 /* body */
 .body-inicio{
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .hero{
+    background-repeat: no-repeat;
     background-image: url("https://res.cloudinary.com/dirpdlfbu/image/upload/v1733229891/pizzeria_juani/imagenes/vetolumgsqme1l9rsyuf.jpg");
     width: 100%;
     height: 81vh;
@@ -80,12 +92,14 @@ nav div{
     flex-direction: column;
     filter: brightness(0.5);
     backdrop-filter: blur(8px);
+    background-size: cover;
+    background-position: center;
 }
 .hero-text{
     position: absolute;
     top: 0;
     margin-top: 30vh;
-    padding: 100px;
+    padding: 100px 200px 100px 200px;
 }
 .h1-hero{
     color: white;
@@ -95,10 +109,19 @@ nav div{
     color: white;
     text-align: center;
 }
+.p-section-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+}
 .section-inicio-1{
-    height: 80vh;
+    height: 50vh;
     padding: 70px 0 70px 0;
     display: flex;
+    max-width: 1000px;
 }
 .section-inicio-1 div{
     width: 50%;
@@ -108,34 +131,55 @@ nav div{
     align-items: center;
 }
 .img-section-1{
-    width: 90%;
+    height: 100%;
 }
 .section-inicio-2{
+    height: 50vh;
+    display: flex !important;
     background-color: beige;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px 0 70px 0;
+    flex-direction: row;
+}
+.section-inicio-2-hijo{
+    max-width: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
 }
 /* footer */
 footer{
-    background-image: url("url");
-    filter: brightness(0.7);
+    background-image: url("https://res.cloudinary.com/dirpdlfbu/image/upload/v1733229891/pizzeria_juani/imagenes/vetolumgsqme1l9rsyuf.jpg");
+    filter: brightness(0.5);
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 0 60px 0 60px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .container-footer-logo{
     min-height: 10vh;
     width: 100%;
 }
+.container-footer-logo{
+    max-width: 1000px;
+}
 .container-footer-logo img{
     height: 100%;
 }
 .container-links-footer{
-    background-image: url("url");
     display: flex;
     width: 100%;
     justify-content: space-evenly;
-    filter: brightness(0.5);
+    max-width: 1000px;
 }
 .container-links-interno{
     width: 43%;
@@ -144,8 +188,9 @@ footer{
     flex-direction: column;
 }
 .tittle-links-footer{
-    color: white;
-    font-weight: 600px;
+    color: white !important;
+    font-size: 22px;
+    margin: 15px 0 15px 0;
 }
 .container-links-footer-varios{
     display: flex;
@@ -154,6 +199,7 @@ footer{
 .container-links-footer-varios a{
     color: white;
     margin-bottom: 10px;
+    text-decoration: none;
 }
 .container-links-footer-varios a:hover{
     color: red;
@@ -161,10 +207,12 @@ footer{
 .footer-corporate{
     background-color: black;
     color: white;
+    width: 100%;
 }
 .footer-corporate p{
     color: white;
     padding: 7px 0 7px 0;
+    margin: 0;
 }
 .conatiner-blog-principal{
     padding: 0 60px 0 60px;
@@ -206,4 +254,21 @@ footer{
 }
 .btn-login:hover{
     background-color: #114491;
+}
+.container-sup-correo{
+    text-align: center;
+}
+.footer-text{
+    position: absolute;
+    z-index: 15;
+    width: 100%;
+    margin-top: 1600px;
+    height: 80vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-direction: column;
+}
+footer{
+    height: 60vh;
 }
