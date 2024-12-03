@@ -1,0 +1,25 @@
+.container-nosotros{
+    background-image: url("https://res.cloudinary.com/dirpdlfbu/image/upload/v1733229891/pizzeria_juani/imagenes/vetolumgsqme1l9rsyuf.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.aboutus-table{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+.aboutus-table th{
+    background-color: darkblue;
+    color: white;
+}
+.aboutus-table td{
+    background-color: white;
+}
+.titulo-nosotros{
+    text-align: center;
+    background-color: darkblue;
+    color: white;
+}
