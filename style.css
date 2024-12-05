@@ -229,17 +229,29 @@ footer{
     width: 100%;
     flex-direction: column;
 }
+.container-blog-principal{
+    width: 100%;
+}
 .container-cards{
     display: flex;
     width: 100%;
     justify-content: space-between;
+    margin-top: 20px;
 }
 .card{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 30%;
     border-radius: 15px;
     background-color: beige;
+}
+.img-50{
+    height: 200px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    background-repeat: no-repeat;
 }
 .btn-login{
     padding: 7px 12px 7px 12px;
@@ -271,4 +283,18 @@ footer{
 }
 footer{
     height: 60vh;
+}
+.card-information{
+    padding: 20px;
+
+}
+.card-information h5{
+    font-size: 25px;
+    margin: 0;
+}
+.card-information p{
+    text-align: start;
+}
+.container-textos{
+    text-align: center;
 }
