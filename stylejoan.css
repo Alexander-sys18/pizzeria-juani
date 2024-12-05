@@ -7,6 +7,9 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .aboutus-table{
     text-align: center;
@@ -35,6 +38,9 @@
     align-items: center;
     flex-direction: column;
     backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .titulo-contactanos{
     color: white;
