@@ -43,13 +43,27 @@
     background-position: center;
 }
 .titulo-contactanos{
-    color: white;
     text-align: center;
-    background-color: rgb(0, 0, 0, 0.5);
 }
-.contact-form{
-    color: white;
-    text-align: center;
-    background-color: rgb(0, 0, 0, 0.5);
+.sub-container-contactanos{
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
 }
-
+input{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(0, 255, 255, 0.37);
+    min-height: 10px;
+}
+textarea{
+    width: 100%;
+    border: none;
+    border-radius: 7px;
+    background-color: rgba(0, 255, 255, 0.37);
+    min-height: 15px;
+}
+label{
+    text-align: start;
+}
